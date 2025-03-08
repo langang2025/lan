@@ -51,8 +51,8 @@ canvas {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* 强制横屏 */
-@media screen and (orientation: portrait) {
+/* 强制竖屏 */
+@media screen and (orientation: landscape) {
     #orientation-message {
         display: flex;
     }
